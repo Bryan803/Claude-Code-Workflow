@@ -1,0 +1,12 @@
+# Whitelist: track only my own config. Everything else (history, sessions,
+# memory, caches, credentials, plugin installs, workplans) stays local.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/commands/
+!/agents/
+!/hooks/
+!/skills/
+/skills/synced/
+__pycache__/
